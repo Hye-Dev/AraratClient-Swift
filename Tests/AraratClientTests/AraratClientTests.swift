@@ -7,5 +7,6 @@ final class AraratClientTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(AraratClient().text, "Hello, World!")
+        print(AraratClient().getText(yes: "e"))
     }
 }
